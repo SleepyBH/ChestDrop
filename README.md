@@ -1,45 +1,21 @@
-# DuelMaster
+ChestDropsPlugin
+A lightweight plugin that lets you customize what drops from chests when they are broken or opened — perfect for RPG servers, custom dungeons, or loot-based gameplay!
 
-A modern 1v1 duel plugin for Spigot/Paper 1.21+ (Java 21, Maven).
+🧰 Features
+Custom chest drop tables
 
-Made by alexetrey (Dm for any issues or any help)
+Per-world and per-chest configuration
 
-## Features
-- /duel <player>: Send duel request
-- /duel accept|deny|leave: Manage duels
-- /dueladmin createarena <name>: Create arena
-- /dueladmin setspawn <arena> <1|2>: Set arena spawnpoints
-- Arenas saved in `arenas.yml`
-- Requests timeout, cooldowns, anti-cheat, and more
+Randomized or fixed item drops
 
-## Requirements
-- Java 21+
-- PaperMC 1.21+ (or Spigot 1.21+)
-- Maven
+Support for enchantments, custom names, and lore
 
+Fully configurable via config.yml
 
-The plugin jar will be in `target/DuelMaster-1.0.0.jar`.
+📦 Installation
+Download the plugin .jar file
 
-## Install
-1. Place the jar in your server's `plugins/` folder.
-2. Start the server. The plugin will generate config files.
+Drop it into your plugins/ folder
 
-## Arena Setup
-1. `/dueladmin createarena <name>`
-2. Stand at spawnpoint 1, run `/dueladmin setspawn <arena> 1`
-3. Stand at spawnpoint 2, run `/dueladmin setspawn <arena> 2`
-
-## Usage
-- `/duel <player>` to challenge
-- `/duel accept` or `/duel deny`
-- `/duel leave` to forfeit
-
-## Configuration
-- `arenas.yml`: Arena locations
-- `config.yml`: Messages, cooldowns, etc. (to be expanded)
-
-## Notes
-- Only one duel per player at a time
-- Requests timeout in 30 seconds
-- All player states are restored after duels
+Restart or reload your server
 
